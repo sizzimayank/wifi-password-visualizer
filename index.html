@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wi-Fi Password Strength Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wi-Fi Password Strength Visualizer</h1>
+        <input type="password" id="passwordInput" placeholder="Enter Wi-Fi Password" />
+        <button onclick="checkStrength()">Check Strength</button>
+        <div class="result">
+            <canvas id="strengthChart"></canvas>
+            <p id="tips"></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

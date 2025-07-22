@@ -1,2 +1,24 @@
-# wifi-password-visualizer
-Many Wi-Fi networks use short or predictable passwords, making them vulnerable to brute-force or dictionary attacks. However, most users are unaware of how insecure their passwords may be. This project aims to develop a simple tool (CLI or web-based) that allows users to input their Wi-Fi password manually or fetch it from local storage. The tool will evaluate the password's strength based on length, entropy, and common patterns, then display a visual strength indicator using a bar chart or gauge (e.g., weak, moderate, strong). Additionally, the tool will provide suggestions to improve password security. The goal is to make password strength easily understandable and encourage users to choose stronger, more secure passwords.
+# Wi-Fi Password Strength Visualizer
+
+A simple web app that checks the strength of Wi-Fi passwords and provides visual feedback and improvement tips.
+
+## Features
+- Accepts manual password input
+- Evaluates strength based on common rules
+- Visualizes strength using a bar chart
+- Provides actionable tips for improvement
+
+## How to Run
+1. Clone the repository:
+```bash
+git clone https://github.com/sizzimayank/wifi-password-visualizer.git
+```
+2. Open `index.html` in any browser.
+
+## Tech Stack
+- HTML, CSS, JavaScript
+- Chart.js for visualization
+
+## Screenshot
+![Example UI](assets/example.png)
+
